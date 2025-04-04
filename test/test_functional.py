@@ -60,7 +60,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestTrainModel = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestTrainModel", False, "functional")
-            print(f"TestTrainModel = Failed }")
+            print(f"TestTrainModel = Failed")
 
     def test_evaluate_model(self):
         """
@@ -88,7 +88,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestEvaluateModel = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestEvaluateModel", False, "functional")
-            print(f"TestEvaluateModel = Failed ")
+            print(f"TestEvaluateModel = Failed")
 
     def test_predict_new_purchase(self):
         """
@@ -112,7 +112,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestPredictNewPurchase = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestPredictNewPurchase", False, "functional")
-            print(f"TestPredictNewPurchase = Failed }")
+            print(f"TestPredictNewPurchase = Failed")
 
     def test_predict_new_no_purchase(self):
         """
