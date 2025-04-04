@@ -42,7 +42,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestPreprocessData = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestPreprocessData", False, "functional")
-            print(f"TestPreprocessData = Failed | Exception: {e}")
+            print(f"TestPreprocessData = Failed")
 
     def test_train_model(self):
         """
@@ -60,7 +60,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestTrainModel = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestTrainModel", False, "functional")
-            print(f"TestTrainModel = Failed | Exception: {e}")
+            print(f"TestTrainModel = Failed }")
 
     def test_evaluate_model(self):
         """
@@ -88,7 +88,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestEvaluateModel = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestEvaluateModel", False, "functional")
-            print(f"TestEvaluateModel = Failed | Exception: {e}")
+            print(f"TestEvaluateModel = Failed ")
 
     def test_predict_new_purchase(self):
         """
@@ -112,7 +112,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestPredictNewPurchase = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestPredictNewPurchase", False, "functional")
-            print(f"TestPredictNewPurchase = Failed | Exception: {e}")
+            print(f"TestPredictNewPurchase = Failed }")
 
     def test_predict_new_no_purchase(self):
         """
@@ -136,7 +136,7 @@ class TestLogisticRegression(unittest.TestCase):
                 print("TestPredictNewNoPurchase = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestPredictNewNoPurchase", False, "functional")
-            print(f"TestPredictNewNoPurchase = Failed | Exception: {e}")
+            print(f"TestPredictNewNoPurchase = Failed")
 
 if __name__ == '__main__':
     unittest.main()
